@@ -31,8 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B3D82FD18DB4F52009DB20E /* AbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMethod.h; sourceTree = "<group>"; };
-		1B3D82FE18DB4F52009DB20E /* Singletone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
 		2F1B82BC18C9DC6B00A7547D /* AzoftKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzoftKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1B82BF18C9DC6B00A7547D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F1B82C118C9DC6B00A7547D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,6 +47,8 @@
 		2F1B82F118C9DF4800A7547D /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
 		2F1B82F218C9DF4800A7547D /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
 		2F1B82F318C9DF4800A7547D /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+		2F2A662418DBF65C0087750B /* AbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMethod.h; sourceTree = "<group>"; };
+		2F2A662518DBF65C0087750B /* Singletone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,16 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B3D82FC18DB4F52009DB20E /* Macros */ = {
-			isa = PBXGroup;
-			children = (
-				1B3D82FD18DB4F52009DB20E /* AbstractMethod.h */,
-				1B3D82FE18DB4F52009DB20E /* Singletone.h */,
-			);
-			name = Macros;
-			path = AzoftKit/Macros;
-			sourceTree = SOURCE_ROOT;
-		};
 		2F1B82B318C9DC6B00A7547D = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +129,7 @@
 		2F1B82EE18C9DF4800A7547D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1B3D82FC18DB4F52009DB20E /* Macros */,
+				2F2A662318DBF65C0087750B /* Macros */,
 				2F1B82EF18C9DF4800A7547D /* Categories */,
 			);
 			path = Classes;
@@ -154,6 +144,15 @@
 				2F1B82F318C9DF4800A7547D /* UIViewController+Storyboard.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		2F2A662318DBF65C0087750B /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				2F2A662418DBF65C0087750B /* AbstractMethod.h */,
+				2F2A662518DBF65C0087750B /* Singletone.h */,
+			);
+			path = Macros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
