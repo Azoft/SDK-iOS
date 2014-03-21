@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1B82C018C9DC6B00A7547D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B82BF18C9DC6B00A7547D /* Foundation.framework */; };
+		2F1B82C218C9DC6B00A7547D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B82C118C9DC6B00A7547D /* CoreGraphics.framework */; };
+		2F1B82C418C9DC6B00A7547D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B82C318C9DC6B00A7547D /* UIKit.framework */; };
+		2F1B82CA18C9DC6B00A7547D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F1B82C818C9DC6B00A7547D /* InfoPlist.strings */; };
+		2F1B82CC18C9DC6B00A7547D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B82CB18C9DC6B00A7547D /* main.m */; };
+		2F1B82D018C9DC6B00A7547D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B82CF18C9DC6B00A7547D /* AppDelegate.m */; };
+		2F1B82D918C9DC6B00A7547D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B82D818C9DC6B00A7547D /* XCTest.framework */; };
+		2F1B82DA18C9DC6B00A7547D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B82BF18C9DC6B00A7547D /* Foundation.framework */; };
+		2F1B82DB18C9DC6B00A7547D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B82C318C9DC6B00A7547D /* UIKit.framework */; };
+		2F1B82F418C9DF4800A7547D /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B82F118C9DF4800A7547D /* UIView+Loading.m */; };
+		2F1B82F518C9DF4800A7547D /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B82F318C9DF4800A7547D /* UIViewController+Storyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F1B82DC18C9DC6B00A7547D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1B82B418C9DC6B00A7547D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1B82BB18C9DC6B00A7547D;
+			remoteInfo = AzoftKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B3D82FD18DB4F52009DB20E /* AbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMethod.h; sourceTree = "<group>"; };
+		1B3D82FE18DB4F52009DB20E /* Singletone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
+		2F1B82BC18C9DC6B00A7547D /* AzoftKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzoftKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1B82BF18C9DC6B00A7547D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F1B82C118C9DC6B00A7547D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F1B82C318C9DC6B00A7547D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F1B82C718C9DC6B00A7547D /* AzoftKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AzoftKit-Info.plist"; sourceTree = "<group>"; };
+		2F1B82C918C9DC6B00A7547D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F1B82CB18C9DC6B00A7547D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F1B82CD18C9DC6B00A7547D /* AzoftKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AzoftKit-Prefix.pch"; sourceTree = "<group>"; };
+		2F1B82CE18C9DC6B00A7547D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F1B82CF18C9DC6B00A7547D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F1B82D718C9DC6B00A7547D /* AzoftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzoftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1B82D818C9DC6B00A7547D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F1B82F018C9DF4800A7547D /* UIView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Loading.h"; sourceTree = "<group>"; };
+		2F1B82F118C9DF4800A7547D /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
+		2F1B82F218C9DF4800A7547D /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		2F1B82F318C9DF4800A7547D /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1B82B918C9DC6B00A7547D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1B82C218C9DC6B00A7547D /* CoreGraphics.framework in Frameworks */,
+				2F1B82C418C9DC6B00A7547D /* UIKit.framework in Frameworks */,
+				2F1B82C018C9DC6B00A7547D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1B82D418C9DC6B00A7547D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1B82D918C9DC6B00A7547D /* XCTest.framework in Frameworks */,
+				2F1B82DB18C9DC6B00A7547D /* UIKit.framework in Frameworks */,
+				2F1B82DA18C9DC6B00A7547D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B3D82FC18DB4F52009DB20E /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1B3D82FD18DB4F52009DB20E /* AbstractMethod.h */,
+				1B3D82FE18DB4F52009DB20E /* Singletone.h */,
+			);
+			name = Macros;
+			path = AzoftKit/Macros;
+			sourceTree = SOURCE_ROOT;
+		};
+		2F1B82B318C9DC6B00A7547D = {
+			isa = PBXGroup;
+			children = (
+				2F1B82C518C9DC6B00A7547D /* AzoftKit */,
+				2F1B82BE18C9DC6B00A7547D /* Frameworks */,
+				2F1B82BD18C9DC6B00A7547D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1B82BD18C9DC6B00A7547D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B82BC18C9DC6B00A7547D /* AzoftKit.app */,
+				2F1B82D718C9DC6B00A7547D /* AzoftKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1B82BE18C9DC6B00A7547D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B82BF18C9DC6B00A7547D /* Foundation.framework */,
+				2F1B82C118C9DC6B00A7547D /* CoreGraphics.framework */,
+				2F1B82C318C9DC6B00A7547D /* UIKit.framework */,
+				2F1B82D818C9DC6B00A7547D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F1B82C518C9DC6B00A7547D /* AzoftKit */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B82EE18C9DF4800A7547D /* Classes */,
+				2F1B82CE18C9DC6B00A7547D /* AppDelegate.h */,
+				2F1B82CF18C9DC6B00A7547D /* AppDelegate.m */,
+				2F1B82C618C9DC6B00A7547D /* Supporting Files */,
+			);
+			path = AzoftKit;
+			sourceTree = "<group>";
+		};
+		2F1B82C618C9DC6B00A7547D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B82C718C9DC6B00A7547D /* AzoftKit-Info.plist */,
+				2F1B82C818C9DC6B00A7547D /* InfoPlist.strings */,
+				2F1B82CB18C9DC6B00A7547D /* main.m */,
+				2F1B82CD18C9DC6B00A7547D /* AzoftKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F1B82EE18C9DF4800A7547D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B3D82FC18DB4F52009DB20E /* Macros */,
+				2F1B82EF18C9DF4800A7547D /* Categories */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2F1B82EF18C9DF4800A7547D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B82F018C9DF4800A7547D /* UIView+Loading.h */,
+				2F1B82F118C9DF4800A7547D /* UIView+Loading.m */,
+				2F1B82F218C9DF4800A7547D /* UIViewController+Storyboard.h */,
+				2F1B82F318C9DF4800A7547D /* UIViewController+Storyboard.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1B82BB18C9DC6B00A7547D /* AzoftKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1B82E818C9DC6B00A7547D /* Build configuration list for PBXNativeTarget "AzoftKit" */;
+			buildPhases = (
+				2F1B82B818C9DC6B00A7547D /* Sources */,
+				2F1B82B918C9DC6B00A7547D /* Frameworks */,
+				2F1B82BA18C9DC6B00A7547D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzoftKit;
+			productName = AzoftKit;
+			productReference = 2F1B82BC18C9DC6B00A7547D /* AzoftKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F1B82D618C9DC6B00A7547D /* AzoftKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1B82EB18C9DC6B00A7547D /* Build configuration list for PBXNativeTarget "AzoftKitTests" */;
+			buildPhases = (
+				2F1B82D318C9DC6B00A7547D /* Sources */,
+				2F1B82D418C9DC6B00A7547D /* Frameworks */,
+				2F1B82D518C9DC6B00A7547D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1B82DD18C9DC6B00A7547D /* PBXTargetDependency */,
+			);
+			name = AzoftKitTests;
+			productName = AzoftKitTests;
+			productReference = 2F1B82D718C9DC6B00A7547D /* AzoftKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1B82B418C9DC6B00A7547D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Andrey Karpetz";
+				TargetAttributes = {
+					2F1B82D618C9DC6B00A7547D = {
+						TestTargetID = 2F1B82BB18C9DC6B00A7547D;
+					};
+				};
+			};
+			buildConfigurationList = 2F1B82B718C9DC6B00A7547D /* Build configuration list for PBXProject "AzoftKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F1B82B318C9DC6B00A7547D;
+			productRefGroup = 2F1B82BD18C9DC6B00A7547D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1B82BB18C9DC6B00A7547D /* AzoftKit */,
+				2F1B82D618C9DC6B00A7547D /* AzoftKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1B82BA18C9DC6B00A7547D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1B82CA18C9DC6B00A7547D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1B82D518C9DC6B00A7547D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1B82B818C9DC6B00A7547D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1B82D018C9DC6B00A7547D /* AppDelegate.m in Sources */,
+				2F1B82F518C9DF4800A7547D /* UIViewController+Storyboard.m in Sources */,
+				2F1B82CC18C9DC6B00A7547D /* main.m in Sources */,
+				2F1B82F418C9DF4800A7547D /* UIView+Loading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1B82D318C9DC6B00A7547D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F1B82DD18C9DC6B00A7547D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1B82BB18C9DC6B00A7547D /* AzoftKit */;
+			targetProxy = 2F1B82DC18C9DC6B00A7547D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F1B82C818C9DC6B00A7547D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1B82C918C9DC6B00A7547D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1B82E618C9DC6B00A7547D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F1B82E718C9DC6B00A7547D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F1B82E918C9DC6B00A7547D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AzoftKit/AzoftKit-Prefix.pch";
+				INFOPLIST_FILE = "AzoftKit/AzoftKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F1B82EA18C9DC6B00A7547D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AzoftKit/AzoftKit-Prefix.pch";
+				INFOPLIST_FILE = "AzoftKit/AzoftKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F1B82EC18C9DC6B00A7547D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AzoftKit.app/AzoftKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AzoftKit/AzoftKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AzoftKitTests/AzoftKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F1B82ED18C9DC6B00A7547D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AzoftKit.app/AzoftKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AzoftKit/AzoftKit-Prefix.pch";
+				INFOPLIST_FILE = "AzoftKitTests/AzoftKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1B82B718C9DC6B00A7547D /* Build configuration list for PBXProject "AzoftKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1B82E618C9DC6B00A7547D /* Debug */,
+				2F1B82E718C9DC6B00A7547D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1B82E818C9DC6B00A7547D /* Build configuration list for PBXNativeTarget "AzoftKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1B82E918C9DC6B00A7547D /* Debug */,
+				2F1B82EA18C9DC6B00A7547D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1B82EB18C9DC6B00A7547D /* Build configuration list for PBXNativeTarget "AzoftKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1B82EC18C9DC6B00A7547D /* Debug */,
+				2F1B82ED18C9DC6B00A7547D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F1B82B418C9DC6B00A7547D /* Project object */;
+}
